@@ -1539,7 +1539,7 @@ void drawOnboardingQRPage() {
 
   String mac = WiFi.macAddress();
   mac.replace(":", "");
-  String url = "https://christadaryn.github.io/deskbuddy?mac=" + mac;
+  String url = "https://christadarynp2023.github.io/deskbuddy?mac=" + mac;
   QR::draw(display, url.c_str(), 2);
 }
 

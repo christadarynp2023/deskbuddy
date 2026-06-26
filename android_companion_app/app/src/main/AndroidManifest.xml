@@ -40,7 +40,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" />
-                <data android:host="christadaryn.github.io" />
+                <data android:host="christadarynp2023.github.io" />
                 <data android:pathPrefix="/deskbuddy" />
             </intent-filter>
         </activity>
