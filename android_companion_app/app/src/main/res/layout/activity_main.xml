@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#0c1929">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desk Buddy Link"
+        android:textColor="#5ba3f5"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtMac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paired Device: None"
+        android:textColor="#e8f4fc"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Status: Disconnected"
+        android:textColor="#8ab4e8"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync Time &amp; Battery"
+        android:backgroundTint="#3498db"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find My Desk Buddy"
+        android:backgroundTint="#2ecc71"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload OTA Firmware (.bin)"
+        android:backgroundTint="#e74c3c"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
